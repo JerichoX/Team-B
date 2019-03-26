@@ -10,5 +10,4 @@ contract TestSimpleStorage is SimpleStorage{
     setInternal(89);
     Assert.equal(get(), 89, "It should store the value 89.");
   }
-
 }
